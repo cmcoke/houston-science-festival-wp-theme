@@ -4,7 +4,7 @@
 
 get_header(); ?>
 
-
+<!-- Hero -->
 <section class='relative'>
 
   <!-- mobile version -->
@@ -189,6 +189,38 @@ get_header(); ?>
     <div class='absolute bottom-[-47%] left-1/2 transform -translate-x-1/2 w-full'>
       <img src="<?php echo get_template_directory_uri() . '/assets/img/hero/shapes--desktop.webp' ?>"
         alt="colorful shapes">
+    </div>
+  </div>
+
+</section>
+
+<!-- Overview -->
+<section class='mx-[4%] py-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)]'>
+
+  <div>
+    <h1
+      class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto my-0'>
+      We're kicking off Hispanic Heritage Month with style!</h1>
+    <h2
+      class='text-[color:var(--moonstone)] text-center text-[clamp(1rem,0.886rem_+_0.571vw,1.8rem)] not-italic font-normal leading-[160%] lg:leading-[125%] my-[clamp(1.25rem,0.982rem_+_1.339vw,3.125rem)] max-w-[clamp(37.5rem,36.75rem_+_3.75vw,42.75rem)] mx-auto'>
+      SATURDAY, SEPTEMBER 9, 2023: 9am - 3pm Houston Community College - West Houston Institute 2811 Hayes Road,
+      Houston, TX 77082</h2>
+    <p
+      class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[1300px] mx-auto my-0'>
+      Bridges
+      to Science's Houston Science Festival - Casa to College, the first of its kind in Houston, is a
+      celebration
+      of Hispanic culture and learning at home designed for 5th-12th grade students and their parents, showcasing
+      science,
+      technology, engineering, and math (STEM). It offers a vibrant fiesta with workshops, live demonstrations,
+      multidisciplinary collaborations, family-friendly science activities, interactive experiences, STEM career panels,
+      and a taste of Hispanic cuisine. By highlighting Houston's Hispanic cultural heritage, the event encourages
+      families
+      to learn en familia and explore exciting science pathways, fostering a deeper connection between science and the
+      arts.
+    </p>
+    <div class='mt-[4rem] flex justify-center'>
+      <a href=" <?php echo esc_url(site_url('/')); ?>" class='button'>Register!</a>
     </div>
   </div>
 
