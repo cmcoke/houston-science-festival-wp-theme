@@ -195,7 +195,7 @@ get_header(); ?>
 </section>
 
 <!-- Overview -->
-<section class='mx-[4%] py-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)]'>
+<section class='wrapper pt-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)]'>
 
   <div>
     <h1
@@ -221,6 +221,76 @@ get_header(); ?>
     </p>
     <div class='mt-[4rem] flex justify-center'>
       <a href=" <?php echo esc_url(site_url('/')); ?>" class='button'>Register!</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- Call for Entries! -->
+<section class=' relative pt-[clamp(12.813rem,7.027rem_+_12.054vw,26.313rem)] entries'>
+
+  <div class="wrapper">
+    <h1
+      class='hidden md:block text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0 mb-[clamp(8.75rem,3.741rem_+_10.435vw,20.438rem)]'>
+      Call for Entries!</h1>
+
+    <div class='grid items-start gap-20 md:grid-cols-2 md:grid-rows-1 md:gap-16'>
+
+      <div class="flex flex-col item gap-[50px] text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 ">
+        <h2
+          class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
+          Volunteer</h2>
+        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+          We are actively seeking volunteers, aged 16 and above, who are willing to dedicate their time and contribute
+          to
+          the success of the Houston Science Festival. Your participation will be crucial in promoting and sharing your
+          passion for STEM education within your community.
+        </p>
+        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>Click
+          the button below to sign up.</p>
+        <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
+
+        <hr class='bg-white border-b-2 md:hidden'>
+      </div>
+
+      <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2">
+        <h2
+          class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
+          Present</h2>
+        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+          We invite STEM professionals and higher education providers to join us as speakers, panelists, and live demo
+          facilitators, offering a platform to inspire Hispanic and minority middle schoolers towards STEM pathways and
+          explore future careers in STEM.
+        </p>
+        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>Click
+          the button below to learn more.</p>
+        <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Learn more!</a>
+
+        <hr class='bg-white border-b-2 md:hidden'>
+      </div>
+
+      <hr class='bg-white border-b-2 hidden md:inline-block my-[5rem] md:col-start-1 md:col-end-3'>
+
+      <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-3">
+        <h2
+          class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
+          Exhibit</h2>
+        <p
+          class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[clamp(54rem,44.813rem_+_19.141vw,75.438rem)] my-0 mx-auto'>
+          Join us for an exhilarating day of hands-on STEM activities! We are seeking passionate exhibitors who can lead
+          engaging activities in an expo hall setting, aimed at introducing their organization to 6th-12th grade
+          students
+          and parents while igniting their enthusiasm for math and science. As an exhibitor or activity leader, your
+          role
+          will involve providing exciting hands-on STEM experiences, along with offering support and encouragement.
+        </p>
+        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>Click
+          the button below to sign up.</p>
+        <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
+
+        <hr class='bg-white border-b-2 md:hidden'>
+      </div>
+
     </div>
   </div>
 

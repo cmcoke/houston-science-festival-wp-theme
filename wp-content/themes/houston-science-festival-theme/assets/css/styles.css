@@ -170,3 +170,46 @@ select {
   background-color: var(--blue);
   color: var(--white);
 }
+
+
+.wrapper {
+  margin: 0 4%;
+
+  /* 1024px = 64em */
+  @media (min-width: 64em) {
+    margin: 0 8%;
+  }
+
+  /* 1366px = 85.375em */
+  @media (min-width: 85.375em) {
+    margin: 0 12%;
+  }
+
+  /* 1920px = 120em */
+  @media (min-width: 120em) {
+    margin: 0 18%;
+  }
+}
+
+
+
+
+@media (max-width: 63.9375em) {
+  .entries {
+    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/background/entries-mobile.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+}
+
+@media (min-width: 64em) {
+  .entries {
+    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/background/entries-desktop.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
