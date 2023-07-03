@@ -21,6 +21,14 @@ body.admin-bar {
   max-height: calc(100vh - 32px);
 }
 
+/* Defines css variables on the root element */
+:root {
+  --white: #fff;
+  --blue: #202b52;
+  --moonstone: #23b9d3;
+}
+
+
 /* CSS resets by Andy Bell -- https://andy-bell.co.uk/a-modern-css-reset/ */
 
 /* Box sizing rules */
@@ -60,8 +68,9 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  /* the font that is used for this theme */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 /* A elements that don't have a class get default styles */
@@ -98,4 +107,66 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Shows the background image when the hamburger icon is clicked */
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/header/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--white);
+
+  @media (min-width: 64em) {
+    display: none;
+  }
+}
+
+/* Shows the mobile menu when the hamburger icon is clicked */
+.show {
+  display: block;
+}
+
+/* Prevents scrolling from occuring when mobile menu overlay is visible */
+.no-scroll {
+  overflow: hidden;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.5rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.02rem;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  background-color: var(--white);
+  padding: 0.625rem 4.6875rem;
+  max-width: clamp(22rem, 12.2857rem + 48.5714vw, 90rem);
+  margin: 0 auto;
+  transition: all 0.35s ease-in-out;
+
+  @media (min-width: 48em) {
+    display: inline-block;
+  }
+
+  @media (min-width: 85.375em) {
+    padding: 0.9375rem 3.125rem;
+  }
+
+}
+
+.button:hover {
+  border: 2px solid var(--white);
+  background-color: var(--blue);
+  color: var(--white);
 }
