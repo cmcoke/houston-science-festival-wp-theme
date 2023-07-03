@@ -117,7 +117,7 @@ select {
   z-index: 1;
   left: 0;
   top: 0;
-  background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/header/bg.png");
+  background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/header/bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

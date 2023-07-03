@@ -25,10 +25,10 @@ class MobileMenu {
     this.navigation.classList.toggle("show");
     this.socialMedia.classList.toggle("show");
     if (this.container.classList.contains("overlay")) {
-      this.mobileMenuIcon.src = "/wp-content/themes/houston-science-festival-theme/assets/img/header/close.png";
+      this.mobileMenuIcon.src = "/wp-content/themes/houston-science-festival-theme/assets/img/header/close.webp";
       this.body.classList.add("no-scroll");
     } else {
-      this.mobileMenuIcon.src = "/wp-content/themes/houston-science-festival-theme/assets/img/header/hamburger-menu.png";
+      this.mobileMenuIcon.src = "/wp-content/themes/houston-science-festival-theme/assets/img/header/hamburger-menu.webp";
       this.body.classList.remove("no-scroll");
     }
   }

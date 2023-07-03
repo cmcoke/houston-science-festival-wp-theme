@@ -1,5 +1,7 @@
 <?php
 
+####### Vite Configuration #######
+
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) )
     exit;  
@@ -15,3 +17,13 @@ define('IS_VITE_DEVELOPMENT', true);
 include "inc/inc.vite.php";
 
 
+####### Houston Science Festival Theme Configurations #######
+
+// Adds WordPress features
+function hsf_features(){
+
+  // add site title to the browser tab (In the Wordpress Dashboard go to 'Settings' -> 'General' -> 'Site Title' to change the text output)
+  add_theme_support('title-tag');
+
+}
+add_action('after_setup_theme', 'hsf_features');

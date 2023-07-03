@@ -9,28 +9,28 @@
 
 <body <?php body_class(array('grid', 'grid-rows-[auto_1fr_auto]', 'grid-cols-[100%]', 'min-h-[100vh]')); ?>>
 
-  <header class="bg-[rgba(32,43,82,0.3)] w-full absolute">
+  <header class="absolute z-10 w-full bg-[rgba(32,43,82,0.30)]">
 
     <div
       class="grid grid-cols-[1em_6em_1fr_0.5fr_1em] grid-rows-[6em_1fr_auto] lg:grid-cols-[minmax(1rem,3rem)_auto_1fr_1fr_1fr_1fr_minmax(1rem,3rem)] lg:grid-rows-[7rem] items-center"
       id='header__container'>
 
-      <div class="col-start-2 col-end-3 self-center lg:hidden">
+      <div class="col-start-2 col-end-3 self-center z-[2] lg:hidden">
         <a href="<?php echo home_url();  ?>">
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/header/logo--mb.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/header/logo-mobile.webp' ?>"
             alt="Houston Science Festival logo">
         </a>
       </div>
 
-      <div class="hidden lg:block col-start-2 col-end-3">
+      <div class="hidden lg:block col-start-2 col-end-3 z-[2]">
         <a href="<?php echo home_url();  ?>">
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/header/logo--desktop.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/header/logo-desktop.webp' ?>"
             alt="Houston Science Festival logo">
         </a>
       </div>
 
       <div class="col-start-4 col-end-5 self-center justify-self-end z-[2] lg:hidden" id='header__mobile-menu-icon'>
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/header/hamburger-menu.png' ?>"
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/header/hamburger-menu.webp' ?>"
           alt="mobile menu icon">
       </div>
 
@@ -63,27 +63,28 @@
           <li>
             <a href="<?php echo home_url();  ?>">
               <img
-                src="<?php echo get_template_directory_uri() . '/assets/img/social-media/mobile-menu/facebook.png' ?>"
+                src="<?php echo get_template_directory_uri() . '/assets/img/social-media/mobile-menu/facebook.webp' ?>"
                 alt="facebook logo">
             </a>
           </li>
           <li>
             <a href="<?php echo home_url();  ?>">
               <img
-                src="<?php echo get_template_directory_uri() . '/assets/img/social-media/mobile-menu/instagram.png' ?>"
+                src="<?php echo get_template_directory_uri() . '/assets/img/social-media/mobile-menu/instagram.webp' ?>"
                 alt="instagram logo">
             </a>
           </li>
           <li>
             <a href="<?php echo home_url();  ?>">
-              <img src="<?php echo get_template_directory_uri() . '/assets/img/social-media/mobile-menu/twitter.png' ?>"
+              <img
+                src="<?php echo get_template_directory_uri() . '/assets/img/social-media/mobile-menu/twitter.webp' ?>"
                 alt="twitter logo">
             </a>
           </li>
           <li>
             <a href="<?php echo home_url();  ?>">
               <img
-                src="<?php echo get_template_directory_uri() . '/assets/img/social-media/mobile-menu/linkedin.png' ?>"
+                src="<?php echo get_template_directory_uri() . '/assets/img/social-media/mobile-menu/linkedin.webp' ?>"
                 alt="linkedin logo">
             </a>
           </li>
