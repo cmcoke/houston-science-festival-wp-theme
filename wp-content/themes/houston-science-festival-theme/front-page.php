@@ -227,14 +227,14 @@ get_header(); ?>
 </section>
 
 <!-- Call for Entries! -->
-<section class=' relative pt-[clamp(12.813rem,7.027rem_+_12.054vw,26.313rem)] entries'>
+<section class=' relative py-[clamp(12.813rem,7.027rem_+_12.054vw,26.313rem)] entries'>
 
   <div class="wrapper">
     <h1
       class='hidden md:block text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0 mb-[clamp(8.75rem,3.741rem_+_10.435vw,20.438rem)]'>
       Call for Entries!</h1>
 
-    <div class='grid items-start gap-20 md:grid-cols-2 md:grid-rows-1 md:gap-16'>
+    <div class='grid items-start gap-20 md:grid-cols-2 md:grid-rows-1 md:gap-16 md:my-[13rem]'>
 
       <div class="flex flex-col item gap-[50px] text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 ">
         <h2
@@ -267,9 +267,10 @@ get_header(); ?>
         <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Learn more!</a>
 
         <hr class='bg-white border-b-2 md:hidden'>
+
       </div>
 
-      <hr class='bg-white border-b-2 hidden md:inline-block my-[5rem] md:col-start-1 md:col-end-3'>
+      <hr class='bg-white border-b-2 hidden md:inline-block my-[7rem] md:col-start-1 md:col-end-3'>
 
       <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-3">
         <h2
@@ -288,10 +289,95 @@ get_header(); ?>
           the button below to sign up.</p>
         <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
 
-        <hr class='bg-white border-b-2 md:hidden'>
       </div>
 
     </div>
   </div>
+
+</section>
+
+<!-- Meet our 2023 Exhibitors -->
+<section class='pt-[clamp(6.313rem,4.366rem_+_9.732vw,19.938rem)]'>
+
+  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/girl-wearing-glasses--3x.png' ?>"
+    alt="A girl wearing glasses" class='mb-[81px] md:hidden'>
+
+  <h1
+    class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0 mb-[50px] md:mb-[249px]'>
+    Meet our 2023 Exhibitors</h1>
+
+  <div class='wrapper grid grid-cols-2 grid-rows-5 justify-items-center items-center gap-[24px] md:gap-[100px]'>
+
+    <div class='col-start-1 col-end-2 row-start-1 row-end-2'>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber Org logo--mobile.png' ?>"
+        alt="Cyber Org logo" class='md:hidden'>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber Org logo.png' ?>"
+        alt="Cyber Org logo" class='hidden md:inline'>
+    </div>
+
+    <div>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/nasa-logo-web-rgb--mobile.png' ?>"
+        alt="nasa  logo" class='md:hidden'>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/nasa-logo-web-rgb.png' ?>"
+        alt="nasa  logo" class='hidden md:inline'>
+    </div>
+
+    <div>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Math to the Point_logo_transparent_background--mobile.png' ?>"
+        alt="Math to the Point logo" class='md:hidden'>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Math to the Point_logo_transparent_background.png' ?>"
+        alt="Math to the Point logo" class='hidden md:inline'>
+    </div>
+
+    <div>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/MAES-Logo-1206-transparent-blackout--mobile.png' ?>"
+        alt="MAES logo" class='md:hidden'>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/MAES-Logo-1206-transparent-blackout.png' ?>"
+        alt="MAES logo" class='hidden md:inline'>
+    </div>
+
+    <div>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Maker Central HCPL Website-BANNERS-280x140px--mobile.png' ?>"
+        alt="Maker Central HCPL logo" class='md:hidden'>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Maker Central HCPL Website-BANNERS-280x140px.png' ?>"
+        alt="Maker Central HCPL logo" class='hidden md:inline'>
+    </div>
+
+    <div>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/logo-grad-cafe-by-project-grad--mobile.png' ?>"
+        alt="grad cafe by project grad logo" class='md:hidden'>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/logo-grad-cafe-by-project-grad.png' ?>"
+        alt="grad cafe by project grad logo" class='hidden md:inline'>
+    </div>
+
+    <div class='col-start-1 col-end-3'>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White--mobile.png' ?>"
+        alt="HMNS logo" class='md:hidden'>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White.png' ?>"
+        alt="HMNS logo" class='hidden md:inline'>
+    </div>
+
+    <div class='col-start-1 col-end-3 justify-self-center'>
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final--mobile.png' ?>"
+        alt="houston brick clublogo" class='md:hidden'>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final.png' ?>"
+        alt="houston brick clublogo" class='hidden md:inline'>
+    </div>
+
+  </div>
+
+
+  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/boy-with-toy--3x.png' ?>"
+    alt="A boy playing with a toy" class='my-[81px] md:hidden'>
+
 
 </section>

@@ -207,7 +207,7 @@ select {
 
 @media (min-width: 64em) {
   .entries {
-    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/background/entries-desktop.svg");
+    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/background/entries-desktop.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
