@@ -195,7 +195,7 @@ get_header(); ?>
 </section>
 
 <!-- Overview -->
-<section class='wrapper pt-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)]'>
+<section class='wrapper pt-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)] '>
 
   <div>
     <h1
@@ -297,7 +297,7 @@ get_header(); ?>
 </section>
 
 <!-- Meet our 2023 Exhibitors -->
-<section class='pt-[clamp(6.313rem,4.366rem_+_9.732vw,19.938rem)]'>
+<section class='py-[clamp(6.313rem,4.366rem_+_9.732vw,19.938rem)]'>
 
   <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/girl-wearing-glasses--3x.png' ?>"
     alt="A girl wearing glasses" class='mb-[81px] md:hidden'>
@@ -379,5 +379,118 @@ get_header(); ?>
   <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/boy-with-toy--3x.png' ?>"
     alt="A boy playing with a toy" class='my-[81px] md:hidden'>
 
+
+</section>
+
+<!-- Thank you to our 2023 Sponsors! -->
+<section class='wrapper'>
+
+  <!-- mobile version -->
+  <div class='lg:hidden'>
+
+    <!-- h1 tag & logos  -->
+    <div class='flex flex-col gap-[50px]'>
+
+      <h1
+        class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0'>
+        Thank you to our 2023 Sponsors</h1>
+
+      <div class='grid grid-cols-2 grid-rows-2 place-items-center gap-y-[35px] gap-x-[45px]'>
+
+        <div class='col-start-1 col-end-2 row-start-1 row-end-2'>
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--mobile.png' ?>"
+            alt="vela logo">
+        </div>
+
+        <div class='col-start-2 col-end-3 row-start-1 row-end-2'>
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--mobile.png' ?>" alt="hcc logo">
+        </div>
+
+        <div class='col-start-1 col-end-3 row-start-2 row-end-3 place-self-center'>
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--mobile.png' ?>"
+            alt="hslda logo">
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- sponsor text content -->
+    <div
+      class="flex flex-col item gap-[50px] text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 mt-[90px]">
+      <h2
+        class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
+        Sponsor</h2>
+      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+        Support Bridges to Science's Houston Science Festival - Casa to College, by becoming a sponsor. Help us showcase
+        STEAM disciplines, offer engaging workshops, interactive experiences, and STEM career panels. Join us in
+        empowering future generations!
+      </p>
+      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>Click
+        the button below to learn more.</p>
+      <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Learn more!</a>
+
+    </div>
+
+  </div>
+
+  <!-- desktop version -->
+  <div class='hidden lg:block'>
+
+    <h1
+      class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0'>
+      Thank you to our 2023 Sponsors!</h1>
+
+    <div class='grid grid-cols-3 gap-[191px] place-items-center mt-[90px] mb-[272px]'>
+
+      <div>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--desktop.png' ?>"
+          alt="vela logo">
+      </div>
+
+      <div>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--desktop.png' ?>"
+          alt="hslda logo">
+      </div>
+
+      <div>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--desktop.png' ?>" alt="hcc logo">
+      </div>
+
+    </div>
+
+    <div class='grid grid-cols-[repeat(10,auto)] gap-x-[60px] items-center'>
+
+      <div class='col-start-1 col-end-6 row-start-1 row-end-2 object-cover'>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/boy-with-toy1.5x.png' ?>"
+          alt="boy with toy">
+      </div>
+
+      <div class='col-start-6 col-end-11 justify-self-center lg:mb-[11rem]'>
+        <div class="flex flex-col item gap-[50px] text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2">
+          <h2
+            class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
+            Sponsor</h2>
+          <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+            Support Bridges to Science's Houston Science Festival - Casa to College, by becoming a sponsor. Help us
+            showcase STEAM disciplines, offer engaging workshops, interactive experiences, and STEM career panels. Join
+            us in empowering future generations!
+          </p>
+          <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+            Click
+            the button below to learn more.</p>
+          <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Learn more!</a>
+
+        </div>
+      </div>
+
+      <div class='col-start-3 col-end-11 row-start-2 row-end-3 self-end object-cover mt-[-7.75rem]'>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/girl-wearing-glasses1.5x.png' ?>"
+          alt="girl wearing glasses">
+      </div>
+
+    </div>
+
+  </div>
 
 </section>
