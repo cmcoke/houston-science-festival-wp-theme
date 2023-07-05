@@ -213,3 +213,29 @@ select {
     background-size: cover;
   }
 } */
+
+
+
+@media (max-width: 63.9375em) {
+  .footer {
+    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/footer/shapes--mobile1.5.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+  }
+}
+
+@media (min-width: 64em) {
+  .footer {
+    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/footer/shapes--desktop2.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+  }
+}
+
+textarea {
+  resize: none;
+}
