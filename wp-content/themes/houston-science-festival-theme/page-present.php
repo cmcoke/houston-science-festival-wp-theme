@@ -190,7 +190,32 @@
 
 </section>
 
+<!-- Overview -->
+<section class='wrapper pt-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)] '>
 
+  <div>
+    <h1
+      class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto my-0'>
+      Present</h1>
+    <h2
+      class='text-[color:var(--moonstone)] text-center text-[clamp(1rem,0.886rem_+_0.571vw,1.8rem)] not-italic font-normal leading-[160%] lg:leading-[125%] my-[clamp(1.25rem,0.982rem_+_1.339vw,3.125rem)] max-w-[clamp(37.5rem,36.75rem_+_3.75vw,42.75rem)] mx-auto'>
+      Call for entries closes day/month/year</h2>
+    <p
+      class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[1300px] mx-auto my-0'>
+      Calling all STEM enthusiasts and experts! We are on the lookout for STEM professionals and higher education
+      providers to join us as speakers, panelists, and demonstrators. Are you passionate about a particular subject and
+      eager to share your knowledge? This is your chance to shine! We are offering a platform for you to inspire
+      Hispanic and minority middle schoolers towards STEM pathways and explore future careers in STEM.
+    </p>
+
+    <p
+      class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[1300px] mx-auto my-[3rem]'>
+      Scroll down to learn more about each presenter.
+    </p>
+
+  </div>
+
+</section>
 
 
 
