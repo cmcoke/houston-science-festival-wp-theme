@@ -293,9 +293,349 @@
 </section>
 
 
+<!-- Levels & Benefits -->
+<section class="wrapper pt-[138px] lg:pt-[250px]">
+
+  <h1
+    class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mb-[30px] md:mb-[101px]'>
+    Levels and Benefits</h1>
+
+
+  <!-- mobile version -->
+  <div class='grid gap-y-[100px] mb-[100px] md:grid-cols-2 lg:grid-cols-3 items-center gap-16 min-[1632px]:hidden'>
+
+    <!-- Gold -->
+    <div class='max-w-[350px] mx-auto'>
+
+      <h2 class='text-2xl not-italic font-bold leading-[120%] tracking-[-0.48px] text-center mb-[10px]'>Gold</h2>
+      <span class='text-base not-italic font-normal leading-[160%] block text-center mb-[25px]'>+ $5,000</span>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/gold-top--mobile3x.png' ?>"
+        alt="gold" class='block mx-auto mb-[26px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%]'>Logo on t-shirts</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Preferred vendor space (one 6' table) at
+          the Houston
+          Science Festival</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Recognition in print program materials</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Featured on Houston Science Festival
+          website Sponsor's page with link to Sponsor's site</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/gold-bottom--mobile3x.png' ?>"
+        alt="gold" class='block mx-auto mt-[22px]'>
+
+    </div>
+
+
+    <!-- Silver -->
+    <div class='max-w-[350px] mx-auto'>
+
+      <h2 class='text-2xl not-italic font-bold leading-[120%] tracking-[-0.48px] text-center mb-[10px]'>Silver</h2>
+      <span class='text-base not-italic font-normal leading-[160%] block text-center mb-[25px]'>+ $1,000</span>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/silver-top--mobile3x.png' ?>"
+        alt="gold" class='block mx-auto mb-[26px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%]'>Logo on t-shirts</p>
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Preferred vendor space (one 6' table) at
+          the Houston
+          Science Festival</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Recognition in print program materials</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Featured on Houston Science Festival
+          website Sponsor's page with link to Sponsor's site</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/silver-bottom--mobile3x.png' ?>"
+        alt="gold" class='block mx-auto mt-[22px]'>
+
+    </div>
+
+
+    <!-- Copper -->
+    <div class='max-w-[350px] mx-auto'>
+
+      <h2 class='text-2xl not-italic font-bold leading-[120%] tracking-[-0.48px] text-center mb-[10px]'>Copper</h2>
+      <span class='text-base not-italic font-normal leading-[160%] block text-center mb-[25px]'>+ $250</span>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/copper-top--mobile3x.png' ?>"
+        alt="gold" class='block mx-auto mb-[26px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%]'>Logo on t-shirts</p>
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Preferred vendor space (one 6' table) at
+          the Houston
+          Science Festival</p>
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Recognition in print program materials</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <hr class='bg-white border-[1px] mt-[20px] mb-[15px]'>
+
+      <div class='flex items-center justify-between px-[1rem]'>
+        <p class='text-base not-italic font-normal leading-[160%] w-[150px]'>Featured on Houston Science Festival
+          website Sponsor's page with link to Sponsor's site</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+          alt="Checkmark">
+      </div>
+
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/copper-bottom--mobile3x.png' ?>"
+        alt="gold" class='block mx-auto mt-[22px]'>
+
+    </div>
+
+  </div>
+
+  <!-- desktop version -->
+  <table class="table-fixed mx-auto min-w-[1200px] hidden min-[1632px]:block">
+
+    <thead>
+      <tr>
+        <th></th>
+        <th class="text-[40px] not-italic font-bold leading-[120%] tracking-[-0.8px] text-center pr-[20px]">
+          Gold <br>
+          <span class='text-2xl not-italic font-bold leading-[120%] tracking-[-0.48px] text-center'>+
+            $5,000</span> <br>
+          <img
+            src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/gold-top--mobile3x.png' ?>"
+            alt="gold" class='block mx-auto mb-[26px] mt-[50px]'>
+        </th>
+        <th class="text-[40px] not-italic font-bold leading-[120%] tracking-[-0.8px] text-center pr-[20px]">
+          Silver <br>
+          <span class='text-2xl not-italic font-bold leading-[120%] tracking-[-0.48px] text-center'>
+            + $1,000</span> <br>
+          <img
+            src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/silver-top--mobile3x.png' ?>"
+            alt="silver" class='block mx-auto mb-[26px] mt-[50px]'>
+        </th>
+        <th class="text-[40px] not-italic font-bold leading-[120%] tracking-[-0.8px] text-center">
+          Copper <br>
+          <span class='text-2xl not-italic font-bold leading-[120%] tracking-[-0.48px] text-center'>
+            + $250</span> <br>
+          <img
+            src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/copper-top--mobile3x.png' ?>"
+            alt="copper" class='block mx-auto mb-[26px] mt-[50px]'>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="border-b-2 border-b-white px-4 py-[15px] text-base not-italic font-normal leading-[160%]">Logo on
+          t-shirts
+        </td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+        <td class="border-b-2 border-b-white px-4 py-[15px]"></td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] "></td>
+      </tr>
+      <tr>
+        <td class="border-b-2 border-b-white px-4 py-[15px] text-base not-italic font-normal leading-[160%]">Preferred
+          vendor
+          space (one 6'
+          table) at the Houston Science Festival</td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] "></td>
+      </tr>
+      <tr>
+        <td class="border-b-2 border-b-white px-4 py-[15px] text-base not-italic font-normal leading-[160%]">Recognition
+          in
+          print program
+          materials</td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+      </tr>
+      <tr>
+        <td class="border-b-2 border-b-white px-4 py-[15px] text-base not-italic font-normal leading-[160%]">Featured on
+          Houston Science
+          Festival website Sponsor's page with link to Sponsor's site</td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+        <td class="border-b-2 border-b-white px-4 py-[15px] pl-[clamp(7rem,3.455rem_+_5.34vw,12rem)]">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/Checkmark1.png' ?>"
+            alt="Checkmark">
+        </td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td></td>
+        <th class='pr-[20px]'>
+
+          <img
+            src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/gold-bottom--mobile3x.png' ?>"
+            alt="gold" class='block mx-auto mt-[32px]'>
+
+        </th>
+        <th class='pr-[20px]'>
+
+          <img
+            src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/silver-bottom--mobile3x.png' ?>"
+            alt="silver" class='block mx-auto mt-[32px]'>
+
+        </th>
+        <th>
+
+          <img
+            src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/copper-bottom--mobile2x.png' ?>"
+            alt="copper" class='block mx-auto mt-[32px]'>
+
+        </th>
+      </tr>
+    </tfoot>
+
+  </table>
+
+  <div class='mt-[6rem] lg:mt-[8rem] flex justify-center'>
+    <a href=" <?php echo esc_url(site_url('/')); ?>" class='button'>Become a sponsor!</a>
+  </div>
 
 
 
+</section>
+
+
+<section class='min-[1632px]:hidden mt-[170px]'>
+  <img
+    src="<?php echo get_template_directory_uri() . '/assets/img/levels-and-benefits/friends-having-fun-dancing-while-out-city 1.png' ?>"
+    alt="friends-having-fun-dancing-while-out-city">
+</section>
+
+
+<section class='wrapper pt-[134px] lg:pt-[350px]'>
+
+  <!-- mobile version -->
+  <div class='flex flex-col gap-[50px] lg:hidden'>
+
+    <h1
+      class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0'>
+      Thank you to our 2023 Sponsors</h1>
+
+    <div class='grid grid-cols-2 grid-rows-2 place-items-center gap-y-[35px] gap-x-[45px]'>
+
+      <div class='col-start-1 col-end-2 row-start-1 row-end-2'>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--mobile.png' ?>" alt="vela logo">
+      </div>
+
+      <div class='col-start-2 col-end-3 row-start-1 row-end-2'>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--mobile.png' ?>" alt="hcc logo">
+      </div>
+
+      <div class='col-start-1 col-end-3 row-start-2 row-end-3 place-self-center'>
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--mobile.png' ?>"
+          alt="hslda logo">
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- desktop version -->
+  <h1
+    class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0'>
+    Thank you to our 2023 Sponsors!</h1>
+
+  <div class='hidden lg:grid lg:grid-cols-3 lg:gap-[191px] lg:place-items-center lg:mt-[90px] lg:mb-[272px]'>
+
+    <div>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--desktop.png' ?>" alt="vela logo">
+    </div>
+
+    <div>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--desktop.png' ?>"
+        alt="hslda logo">
+    </div>
+
+    <div>
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--desktop.png' ?>" alt="hcc logo">
+    </div>
+
+  </div>
+
+</section>
 
 
 

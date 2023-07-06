@@ -146,7 +146,7 @@ select {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  letter-spacing: 0.02rem;
+
   color: var(--blue);
   border: 2px solid var(--blue);
   background-color: var(--white);
@@ -157,6 +157,7 @@ select {
 
   @media (min-width: 48em) {
     display: inline-block;
+    letter-spacing: 0.02rem;
   }
 
   @media (min-width: 85.375em) {
