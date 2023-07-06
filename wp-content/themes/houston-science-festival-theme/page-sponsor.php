@@ -209,14 +209,88 @@
       educational growth of our community.
     </p>
     <div class='mt-[4rem] flex justify-center'>
-      <a href=" <?php echo esc_url(site_url('/')); ?>" class='button'>Become a sponsor</a>
+      <a href=" <?php echo esc_url(site_url('/')); ?>" class='button'>Become a sponsor!</a>
     </div>
   </div>
 
 </section>
 
 
+<!-- Why Sponsor? -->
+<section class="wrapper pt-[169px] lg:pt-[250px]">
 
+  <h1
+    class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mb-[30px] md:mb-[101px]'>
+    Why Sponsor?</h1>
+
+  <div class='grid gap-[75px] md:grid-cols-2 lg:grid-cols-4 items-center'>
+
+    <div class='flex flex-col gap-y-[20px]'>
+
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/sponsor-page/icons8-magnifying-glass-128 (1) 1--mobile.png' ?>"
+        alt="magnifying-glass" class='block mx-auto'>
+
+      <h3
+        class='text-[color:var(--moonstone)] text-center text-[clamp(1rem,0.929rem_+_0.357vw,1.5rem)] not-italic font-bold leading-[120%] tracking-[-0.3px] md:tracking-[-0.48px]'>
+        Extensive Exposure</h3>
+
+      <p class='text-[color:var(--white)] text-center text-base not-italic font-normal leading-[160%]'>Gain exposure and
+        visibility by reaching a diverse audience comprising of students, families, educators, and professionals. </p>
+    </div>
+
+    <div class='flex flex-col gap-y-[20px]'>
+
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/sponsor-page/icons8-puzzle-piece-96 (3) 2--mobile.png' ?>"
+        alt="puzzle-piece" class='block mx-auto'>
+
+      <h3
+        class='text-[color:var(--moonstone)] text-center text-[clamp(1rem,0.929rem_+_0.357vw,1.5rem)] not-italic font-bold leading-[120%] tracking-[-0.3px] md:tracking-[-0.48px]'>
+        Brand Association</h3>
+
+      <p class='text-[color:var(--white)] text-center text-base not-italic font-normal leading-[160%]'>Associate with
+        this festival and enhance your brands reputation and showcase your commitment to fostering educational growth
+        and inclusivity. </p>
+    </div>
+
+    <div class='flex flex-col gap-y-[20px]'>
+
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/sponsor-page/icons8-handshake-100 (1) 1--mobile.png' ?>"
+        alt="handshake" class='block mx-auto'>
+
+      <h3
+        class='text-[color:var(--moonstone)] text-center text-[clamp(1rem,0.929rem_+_0.357vw,1.5rem)] not-italic font-bold leading-[120%] tracking-[-0.3px] md:tracking-[-0.48px]'>
+        Networking Opportunities</h3>
+
+      <p class='text-[color:var(--white)] text-center text-base not-italic font-normal leading-[160%]'>Foster
+        collaborations and business opportunities in science and education by connecting with experts, professionals,
+        and educators in STEAM.</p>
+    </div>
+
+    <div class='flex flex-col gap-y-[20px]'>
+
+      <img
+        src="<?php echo get_template_directory_uri() . '/assets/img/sponsor-page/icons8-light-bulb-100 (1) 1--mobile.png' ?>"
+        alt="light-bulb" class='block mx-auto'>
+
+      <h3
+        class='text-[color:var(--moonstone)] text-center text-[clamp(1rem,0.929rem_+_0.357vw,1.5rem)] not-italic font-bold leading-[120%] tracking-[-0.3px] md:tracking-[-0.48px]'>
+        Social Impact</h3>
+
+      <p class='text-[color:var(--white)] text-center text-base not-italic font-normal leading-[160%]'>Play a crucial
+        role in supporting the community and ensure that all youth, no matter their economic background, feel empowered
+        to pursue STEAM fields.</p>
+    </div>
+
+  </div>
+
+  <div class='mt-[6rem] lg:mt-[8rem] flex justify-center'>
+    <a href=" <?php echo esc_url(site_url('/')); ?>" class='button'>Become a sponsor!</a>
+  </div>
+
+</section>
 
 
 
