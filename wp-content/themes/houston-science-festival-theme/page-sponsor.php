@@ -5,8 +5,8 @@
 
   <!-- mobile version -->
   <div class='lg:hidden'>
-    <img src="<?php echo get_template_directory_uri() . '/assets/img/hero/hero--present-mobile.webp' ?>"
-      alt="young girl building a robot">
+    <img src="<?php echo get_template_directory_uri() . '/assets/img/hero/hero--sponsor-mobile.webp' ?>"
+      alt="kid in space suit">
 
     <svg viewBox="-155 5 301 125" fill="none" xmlns="http://www.w3.org/2000/svg"
       class='absolute right-[0%] bottom-0 -translate-y-[27%]'>
@@ -96,10 +96,10 @@
 
   <!-- desktop version -->
   <div class='hidden lg:block'>
-    <img src="<?php echo get_template_directory_uri() . '/assets/img/hero/hero--present-desktop.webp' ?>"
-      alt="young girl building a robot">
+    <img src="<?php echo get_template_directory_uri() . '/assets/img/hero/hero--sponsor-desktop.webp' ?>"
+      alt="Kid in space suit">
 
-    <svg viewBox="-806 -19 1291 436" fill="none" xmlns="http://www.w3.org/2000/svg"
+    <svg viewBox="0 0 1291 436" fill="none" xmlns="http://www.w3.org/2000/svg"
       class='absolute left-[0%] bottom-0 -translate-y-[42%]'>
       <g filter="url(#filter0_f_427_1088)">
         <rect x="100" y="100" width="290" height="236" fill="#202B52" />
@@ -191,215 +191,59 @@
 </section>
 
 <!-- Overview -->
-<section class='pt-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)] '>
+<section class='wrapper pt-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)] '>
 
   <div>
     <h1
       class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto my-0'>
-      Present</h1>
-    <h2
-      class='text-[color:var(--moonstone)] text-center text-[clamp(1rem,0.886rem_+_0.571vw,1.8rem)] not-italic font-normal leading-[160%] lg:leading-[125%] my-[clamp(1.25rem,0.982rem_+_1.339vw,3.125rem)] max-w-[clamp(37.5rem,36.75rem_+_3.75vw,42.75rem)] mx-auto'>
-      Call for entries closes day/month/year</h2>
-    <p
-      class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[1300px] mx-auto my-0'>
-      Calling all STEM enthusiasts and experts! We are on the lookout for STEM professionals and higher education
-      providers to join us as speakers, panelists, and demonstrators. Are you passionate about a particular subject and
-      eager to share your knowledge? This is your chance to shine! We are offering a platform for you to inspire
-      Hispanic and minority middle schoolers towards STEM pathways and explore future careers in STEM.
-    </p>
+      Sponsor</h1>
 
     <p
-      class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[1300px] mx-auto my-[3rem]'>
-      Scroll down to learn more about each presenter.
+      class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[1300px] mx-auto mt-[25px] md:mt-[50px]'>
+      As we strive to make Bridges to Science's Houston Science Festival - Casa to College a resounding success, we are
+      seeking sponsors who can contribute to its realization. By being a sponsor, your organization gains exposure and
+      connection to a diverse STEM education community driven by the meaningful impact of learning. Sponsors demonstrate
+      a commitment to educational growth and inclusivity, and provide valuable educational resources and experiences to
+      students who may otherwise lack access to such opportunities. Together, we can create an unforgettable and
+      impactful STEM-inspired fiesta that celebrates Houston's Hispanic cultural heritage while nurturing the
+      educational growth of our community.
     </p>
-
+    <div class='mt-[4rem] flex justify-center'>
+      <a href=" <?php echo esc_url(site_url('/')); ?>" class='button'>Become a sponsor</a>
+    </div>
   </div>
 
 </section>
 
-<section class="py-[clamp(12.813rem,7.027rem_+_12.054vw,26.313rem)]">
 
-  <div class="wrapper">
 
-    <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-3">
-      <h2
-        class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
-        Speaker</h2>
-      <p
-        class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[clamp(54rem,44.813rem_+_19.141vw,75.438rem)] my-0 mx-auto'>
-        Unleash your STEM expertise and make a lasting impact as a speaker. Speakers will present an engaging STEM topic
-        of their choosing to an audience for 20 minutes with 10 minutes for questions from the audience.
-      </p>
-      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'> If you
-        have a topic that'll leave the audience spell-bound, don't miss out! Please fill out the form below to give us
-        details. We will follow up with a phone call to discuss.</p>
-      <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
 
-    </div>
 
-    <hr class='bg-white border-b-2 mt-[83px]'>
 
-    <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-3 mt-[73px]">
-      <h2
-        class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
-        Panelist</h2>
-      <p
-        class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[clamp(54rem,44.813rem_+_19.141vw,75.438rem)] my-0 mx-auto'>
-        Are you ready to inspire the next generation of innovators? We are seeking passionate individuals like you to
-        participate in exhilarating panel discussions. Share your invaluable experiences and illuminate the pathways
-        that
-        lead to thrilling STEM careers. Middle school students and their parents are eagerly awaiting your guidance.
-      </p>
-      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'> Be part
-        of their transformative journey! Sign up by clicking below.</p>
-      <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
 
-    </div>
 
-    <hr class='bg-white border-b-2 mt-[83px]'>
 
-    <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-3 mt-[73px]">
-      <h2
-        class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
-        Demonstrator</h2>
-      <p
-        class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[clamp(54rem,44.813rem_+_19.141vw,75.438rem)] my-0 mx-auto'>
-        We are in search of passionate professionals who can facilitate mind-blowing science and math demonstrations.
-        Grab
-        the spotlight on the main auditorium stage and take 5th-12th grade students and parents an on an exhilarating
-        15-minute journey, leaving them inspired and envisioning themselves as the scientists of tomorrow. Don't miss
-        this
-        incredible opportunity to shape the future of science.
-      </p>
-      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'> Join us
-        now and be the catalyst for their scientific dreams! Sign up by clicking below.</p>
-      <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
 
-    </div>
 
-  </div>
 
-  <img src="<?php echo get_template_directory_uri() . '/assets/img/present/lifestyle-young-friends-outdoors 1.png' ?>"
-    alt="lifestyle-young-friends-outdoors" class='mt-[197px]  mb-[134px] lg:hidden'>
 
-  <div class="wrapper pt-[134px] lg:pt-[23rem]">
 
-    <!-- mobile version -->
-    <div class='lg:hidden'>
 
-      <!-- h1 tag & logos  -->
-      <div class='flex flex-col gap-[50px]'>
 
-        <h1
-          class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0'>
-          Thank you to our 2023 Sponsors</h1>
 
-        <div class='grid grid-cols-2 grid-rows-2 place-items-center gap-y-[35px] gap-x-[45px]'>
 
-          <div class='col-start-1 col-end-2 row-start-1 row-end-2'>
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--mobile.png' ?>"
-              alt="vela logo">
-          </div>
 
-          <div class='col-start-2 col-end-3 row-start-1 row-end-2'>
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--mobile.png' ?>"
-              alt="hcc logo">
-          </div>
 
-          <div class='col-start-1 col-end-3 row-start-2 row-end-3 place-self-center'>
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--mobile.png' ?>"
-              alt="hslda logo">
-          </div>
 
-        </div>
 
-      </div>
 
-      <!-- sponsor text content -->
-      <div
-        class="flex flex-col item gap-[50px] text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 mt-[90px]">
-        <h2
-          class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
-          Sponsor</h2>
-        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
-          Support Bridges to Science's Houston Science Festival - Casa to College, by becoming a sponsor. Help us
-          showcase
-          STEAM disciplines, offer engaging workshops, interactive experiences, and STEM career panels. Join us in
-          empowering future generations!
-        </p>
-        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>Click
-          the button below to learn more.</p>
-        <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Learn more!</a>
 
-      </div>
 
-    </div>
 
-    <!-- desktop version -->
-    <div class='hidden lg:block'>
 
-      <h1
-        class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0'>
-        Thank you to our 2023 Sponsors!</h1>
 
-      <div class='grid grid-cols-3 gap-[191px] place-items-center mt-[90px] mb-[272px]'>
 
-        <div>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--desktop.png' ?>"
-            alt="vela logo">
-        </div>
 
-        <div>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--desktop.png' ?>"
-            alt="hslda logo">
-        </div>
-
-        <div>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--desktop.png' ?>"
-            alt="hcc logo">
-        </div>
-
-      </div>
-
-      <div class='grid grid-cols-[repeat(10,auto)] gap-x-[60px] items-center'>
-
-        <div class='col-start-1 col-end-6 row-start-1 row-end-2 object-cover'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/boy-with-toy1.5x.png' ?>"
-            alt="boy with toy">
-        </div>
-
-        <div class='col-start-6 col-end-11 justify-self-center lg:mb-[11rem]'>
-          <div
-            class="flex flex-col item gap-[50px] text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2">
-            <h2
-              class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
-              Sponsor</h2>
-            <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
-              Support Bridges to Science's Houston Science Festival - Casa to College, by becoming a sponsor. Help us
-              showcase STEAM disciplines, offer engaging workshops, interactive experiences, and STEM career panels.
-              Join
-              us in empowering future generations!
-            </p>
-            <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
-              Click
-              the button below to learn more.</p>
-            <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Learn more!</a>
-
-          </div>
-        </div>
-
-        <div class='col-start-3 col-end-11 row-start-2 row-end-3 self-end object-cover mt-[-7.75rem]'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/girl-wearing-glasses1.5x.png' ?>"
-            alt="girl wearing glasses">
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
 
 
 <?php get_footer(); ?>
