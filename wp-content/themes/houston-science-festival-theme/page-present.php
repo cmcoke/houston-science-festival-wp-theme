@@ -191,7 +191,7 @@
 </section>
 
 <!-- Overview -->
-<section class='pt-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)] '>
+<section class='wrapper pt-[clamp(7.5rem,2.143rem_+_26.786vw,45rem)] '>
 
   <div>
     <h1
@@ -209,7 +209,7 @@
     </p>
 
     <p
-      class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[1300px] mx-auto my-[3rem]'>
+      class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[1300px] mx-auto mt-[3rem]'>
       Scroll down to learn more about each presenter.
     </p>
 
@@ -217,7 +217,7 @@
 
 </section>
 
-<section class="py-[clamp(12.813rem,7.027rem_+_12.054vw,26.313rem)]">
+<section class="pt-[120px] md:pt-[170px] lg:pt-[210px]">
 
   <div class="wrapper">
 
@@ -279,10 +279,10 @@
 
   </div>
 
-  <img src="<?php echo get_template_directory_uri() . '/assets/img/present/lifestyle-young-friends-outdoors 1.png' ?>"
+  <img src="<?php echo get_template_directory_uri() . '/assets/img/present/lifestyle-young-friends-outdoors 1.webp' ?>"
     alt="lifestyle-young-friends-outdoors" class='mt-[197px]  mb-[134px] lg:hidden'>
 
-  <div class="wrapper pt-[134px] lg:pt-[23rem]">
+  <div class="wrapper pt-[120px] lg:pt-[23rem]">
 
     <!-- mobile version -->
     <div class='lg:hidden'>
@@ -297,17 +297,17 @@
         <div class='grid grid-cols-2 grid-rows-2 place-items-center gap-y-[35px] gap-x-[45px]'>
 
           <div class='col-start-1 col-end-2 row-start-1 row-end-2'>
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--mobile.png' ?>"
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--mobile.webp' ?>"
               alt="vela logo">
           </div>
 
           <div class='col-start-2 col-end-3 row-start-1 row-end-2'>
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--mobile.png' ?>"
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--mobile.webp' ?>"
               alt="hcc logo">
           </div>
 
           <div class='col-start-1 col-end-3 row-start-2 row-end-3 place-self-center'>
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--mobile.png' ?>"
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--mobile.webp' ?>"
               alt="hslda logo">
           </div>
 
@@ -345,17 +345,17 @@
       <div class='grid grid-cols-3 gap-[191px] place-items-center mt-[90px] mb-[272px]'>
 
         <div>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--desktop.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--desktop.webp' ?>"
             alt="vela logo">
         </div>
 
         <div>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--desktop.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--desktop.webp' ?>"
             alt="hslda logo">
         </div>
 
         <div>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--desktop.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--desktop.webp' ?>"
             alt="hcc logo">
         </div>
 
@@ -364,7 +364,7 @@
       <div class='grid grid-cols-[repeat(10,auto)] gap-x-[60px] items-center'>
 
         <div class='col-start-1 col-end-6 row-start-1 row-end-2 object-cover'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/boy-with-toy1.5x.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/boy-with-toy1.5x.webp' ?>"
             alt="boy with toy">
         </div>
 
@@ -389,7 +389,7 @@
         </div>
 
         <div class='col-start-3 col-end-11 row-start-2 row-end-3 self-end object-cover mt-[-7.75rem]'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/girl-wearing-glasses1.5x.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/girl-wearing-glasses1.5x.webp' ?>"
             alt="girl wearing glasses">
         </div>
 

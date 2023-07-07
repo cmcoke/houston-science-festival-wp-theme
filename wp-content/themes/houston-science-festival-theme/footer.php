@@ -31,25 +31,25 @@
       <ul class='flex gap-[15px] mt-[25px]'>
         <li>
           <a href="">
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/icons8-facebook-100 1(1).png' ?>"
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/icons8-facebook-100 1(1).webp' ?>"
               alt="facebook logo">
           </a>
         </li>
         <li>
           <a href="<?php echo home_url();  ?>">
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/icons8-instagram-100 1.png' ?>"
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/icons8-instagram-100 1.webp' ?>"
               alt="instagram logo">
           </a>
         </li>
         <li>
           <a href="<?php echo home_url();  ?>">
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/icons8-twitter-100 1.png' ?>"
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/icons8-twitter-100 1.webp' ?>"
               alt="twitter logo">
           </a>
         </li>
         <li>
           <a href="<?php echo home_url();  ?>">
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/icons8-linkedin-100 1.png' ?>"
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/icons8-linkedin-100 1.webp' ?>"
               alt="linkedin logo">
           </a>
         </li>
@@ -57,15 +57,15 @@
 
       <ul class='flex flex-col items-start mt-[65px] lg:hidden'>
         <li class='mb-[-1rem]'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/beidges-to-science--mobile.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/beidges-to-science--mobile.webp' ?>"
             alt="beidges to science logo">
         </li>
         <li class='ml-[-1rem]'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/hsf--mobile.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/hsf--mobile.webp' ?>"
             alt="houston science festival logo">
         </li>
         <li class='mt-[-1rem]'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/alliance--mobile.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/alliance--mobile.webp' ?>"
             alt="alliance logo">
         </li>
       </ul>
@@ -75,15 +75,15 @@
     <div class='hidden lg:block lg:col-start-1 lg:col-end-3 lg:mt-[100px]'>
       <ul class=' lg:flex lg:justify-between items-center'>
         <li class='mb-[-1rem]'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/beidges-to-science--desktop.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/beidges-to-science--desktop.webp' ?>"
             alt="beidges to science logo">
         </li>
         <li class='ml-[-1rem]'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/hsf--desktop.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/hsf--desktop.webp' ?>"
             alt="houston science festival logo">
         </li>
         <li class='mt-[-1rem]'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/alliance--desktop.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/footer/alliance--desktop.webp' ?>"
             alt="alliance logo">
         </li>
       </ul>

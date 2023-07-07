@@ -227,163 +227,167 @@ get_header(); ?>
 </section>
 
 <!-- Call for Entries! -->
-<section class=' relative py-[clamp(12.813rem,7.027rem_+_12.054vw,26.313rem)] entries'>
+<section class='wrapper pt-[128px] lg:pt-[250px]'>
 
-  <div class="wrapper">
-    <h1
-      class='hidden md:block text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0 mb-[clamp(8.75rem,3.741rem_+_10.435vw,20.438rem)]'>
-      Call for Entries!</h1>
+  <h1
+    class='hidden md:block text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0 mb-[clamp(8.75rem,3.741rem_+_10.435vw,20.438rem)]'>
+    Call for Entries!</h1>
 
-    <div class='grid items-start gap-20 md:grid-cols-2 md:grid-rows-1 md:gap-16 md:my-[13rem]'>
+  <div class='grid items-start gap-20 md:grid-cols-2 md:grid-rows-1 md:gap-16 md:my-[13rem]'>
 
-      <div class="flex flex-col item gap-[50px] text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 ">
-        <h2
-          class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
-          Volunteer</h2>
-        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
-          We are actively seeking volunteers, aged 16 and above, who are willing to dedicate their time and contribute
-          to
-          the success of the Houston Science Festival. Your participation will be crucial in promoting and sharing your
-          passion for STEM education within your community.
-        </p>
-        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>Click
-          the button below to sign up.</p>
-        <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
+    <div class="flex flex-col item gap-[50px] text-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 ">
+      <h2
+        class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
+        Volunteer</h2>
+      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+        We are actively seeking volunteers, aged 16 and above, who are willing to dedicate their time and contribute
+        to
+        the success of the Houston Science Festival. Your participation will be crucial in promoting and sharing
+        your
+        passion for STEM education within your community.
+      </p>
+      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+        Click
+        the button below to sign up.</p>
+      <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
 
-        <hr class='bg-white border-b-2 md:hidden'>
-      </div>
+      <hr class='bg-white border-b-2 md:hidden'>
+    </div>
 
-      <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2">
-        <h2
-          class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
-          Present</h2>
-        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
-          We invite STEM professionals and higher education providers to join us as speakers, panelists, and live demo
-          facilitators, offering a platform to inspire Hispanic and minority middle schoolers towards STEM pathways and
-          explore future careers in STEM.
-        </p>
-        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>Click
-          the button below to learn more.</p>
-        <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Learn more!</a>
+    <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2">
+      <h2
+        class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
+        Present</h2>
+      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+        We invite STEM professionals and higher education providers to join us as speakers, panelists, and live demo
+        facilitators, offering a platform to inspire Hispanic and minority middle schoolers towards STEM pathways
+        and
+        explore future careers in STEM.
+      </p>
+      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+        Click
+        the button below to learn more.</p>
+      <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Learn more!</a>
 
-        <hr class='bg-white border-b-2 md:hidden'>
-
-      </div>
-
-      <hr class='bg-white border-b-2 hidden md:inline-block my-[7rem] md:col-start-1 md:col-end-3'>
-
-      <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-3">
-        <h2
-          class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
-          Exhibit</h2>
-        <p
-          class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[clamp(54rem,44.813rem_+_19.141vw,75.438rem)] my-0 mx-auto'>
-          Join us for an exhilarating day of hands-on STEM activities! We are seeking passionate exhibitors who can lead
-          engaging activities in an expo hall setting, aimed at introducing their organization to 6th-12th grade
-          students
-          and parents while igniting their enthusiasm for math and science. As an exhibitor or activity leader, your
-          role
-          will involve providing exciting hands-on STEM experiences, along with offering support and encouragement.
-        </p>
-        <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>Click
-          the button below to sign up.</p>
-        <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
-
-      </div>
+      <hr class='bg-white border-b-2 md:hidden'>
 
     </div>
+
+    <hr class='bg-white border-b-2 hidden md:inline-block my-[7rem] md:col-start-1 md:col-end-3'>
+
+    <div class="flex flex-col item gap-[50px] text-center md:col-start-1 md:col-end-3">
+      <h2
+        class='text-[clamp(1.5rem,1.357rem_+_0.714vw,2.5rem)] not-italic font-bold leading-[120%] tracking-[-0.48px] md:tracking-[-0.8px]'>
+        Exhibit</h2>
+      <p
+        class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%] max-w-[clamp(54rem,44.813rem_+_19.141vw,75.438rem)] my-0 mx-auto'>
+        Join us for an exhilarating day of hands-on STEM activities! We are seeking passionate exhibitors who can
+        lead
+        engaging activities in an expo hall setting, aimed at introducing their organization to 6th-12th grade
+        students
+        and parents while igniting their enthusiasm for math and science. As an exhibitor or activity leader, your
+        role
+        will involve providing exciting hands-on STEM experiences, along with offering support and encouragement.
+      </p>
+      <p class='text-center text-[clamp(1rem,0.357vw_+_0.929rem,1.5rem)] not-italic font-normal leading-[160%]'>
+        Click
+        the button below to sign up.</p>
+      <a href=" <?php echo esc_url(site_url('/')); ?>" class="button">Sign up!</a>
+
+    </div>
+
   </div>
 
 </section>
 
 <!-- Meet our 2023 Exhibitors -->
-<section class='py-[clamp(6.313rem,4.366rem_+_9.732vw,19.938rem)]'>
+<section class='pt-[101px] lg:pt-[150px]'>
 
-  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/girl-wearing-glasses--3x.png' ?>"
+  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/girl-wearing-glasses--3x.webp' ?>"
     alt="A girl wearing glasses" class='mb-[81px] md:hidden'>
 
   <h1
-    class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0 mb-[50px] md:mb-[249px]'>
+    class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0 mb-[50px] md:mb-[120px]'>
     Meet our 2023 Exhibitors</h1>
 
-  <div class='wrapper grid grid-cols-2 grid-rows-5 justify-items-center items-center gap-[24px] md:gap-[100px]'>
+  <div class='wrapper grid grid-cols-2 grid-rows-5 justify-items-center items-center gap-[24px] md:gap-[70px]'>
 
     <div class='col-start-1 col-end-2 row-start-1 row-end-2'>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber Org logo--mobile.png' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber Org logo--mobile.webp' ?>"
         alt="Cyber Org logo" class='md:hidden'>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber Org logo.png' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber-Org-logo.webp' ?>"
         alt="Cyber Org logo" class='hidden md:inline'>
     </div>
 
     <div>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/nasa-logo-web-rgb--mobile.png' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/nasa-logo-web-rgb--mobile.webp' ?>"
         alt="nasa  logo" class='md:hidden'>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/nasa-logo-web-rgb.png' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/nasa-logo-web-rgb.webp' ?>"
         alt="nasa  logo" class='hidden md:inline'>
     </div>
 
     <div>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Math to the Point_logo_transparent_background--mobile.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Math to the Point_logo_transparent_background--mobile.webp' ?>"
         alt="Math to the Point logo" class='md:hidden'>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Math to the Point_logo_transparent_background.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Math to the Point_logo_transparent_background.webp' ?>"
         alt="Math to the Point logo" class='hidden md:inline'>
     </div>
 
     <div>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/MAES-Logo-1206-transparent-blackout--mobile.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/MAES-Logo-1206-transparent-blackout--mobile.webp' ?>"
         alt="MAES logo" class='md:hidden'>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/MAES-Logo-1206-transparent-blackout.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/MAES-Logo-1206-transparent-blackout.webp' ?>"
         alt="MAES logo" class='hidden md:inline'>
     </div>
 
     <div>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Maker Central HCPL Website-BANNERS-280x140px--mobile.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Maker Central HCPL Website-BANNERS-280x140px--mobile.webp' ?>"
         alt="Maker Central HCPL logo" class='md:hidden'>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Maker Central HCPL Website-BANNERS-280x140px.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Maker Central HCPL Website-BANNERS-280x140px.webp' ?>"
         alt="Maker Central HCPL logo" class='hidden md:inline'>
     </div>
 
     <div>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/logo-grad-cafe-by-project-grad--mobile.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/logo-grad-cafe-by-project-grad--mobile.webp' ?>"
         alt="grad cafe by project grad logo" class='md:hidden'>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/logo-grad-cafe-by-project-grad.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/logo-grad-cafe-by-project-grad.webp' ?>"
         alt="grad cafe by project grad logo" class='hidden md:inline'>
     </div>
 
     <div class='col-start-1 col-end-3'>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White--mobile.png' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White--mobile.webp' ?>"
         alt="HMNS logo" class='md:hidden'>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White.png' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White.webp' ?>"
         alt="HMNS logo" class='hidden md:inline'>
     </div>
 
     <div class='col-start-1 col-end-3 justify-self-center'>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final--mobile.png' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final--mobile.webp' ?>"
         alt="houston brick clublogo" class='md:hidden'>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final.png' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final.webp' ?>"
         alt="houston brick clublogo" class='hidden md:inline'>
     </div>
 
   </div>
 
 
-  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/boy-with-toy--3x.png' ?>"
+  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/boy-with-toy--3x.webp' ?>"
     alt="A boy playing with a toy" class='my-[81px] md:hidden'>
 
 
 </section>
 
 <!-- Thank you to our 2023 Sponsors! -->
-<section class='wrapper'>
+<section class='wrapper pt-[84px] lg:pt-[150px] '>
 
   <!-- mobile version -->
   <div class='lg:hidden'>
@@ -398,16 +402,17 @@ get_header(); ?>
       <div class='grid grid-cols-2 grid-rows-2 place-items-center gap-y-[35px] gap-x-[45px]'>
 
         <div class='col-start-1 col-end-2 row-start-1 row-end-2'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--mobile.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--mobile.webp' ?>"
             alt="vela logo">
         </div>
 
         <div class='col-start-2 col-end-3 row-start-1 row-end-2'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--mobile.png' ?>" alt="hcc logo">
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--mobile.webp' ?>"
+            alt="hcc logo">
         </div>
 
         <div class='col-start-1 col-end-3 row-start-2 row-end-3 place-self-center'>
-          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--mobile.png' ?>"
+          <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--mobile.webp' ?>"
             alt="hslda logo">
         </div>
 
@@ -444,17 +449,17 @@ get_header(); ?>
     <div class='grid grid-cols-3 gap-[191px] place-items-center mt-[90px] mb-[272px]'>
 
       <div>
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--desktop.png' ?>"
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/vela--desktop.webp' ?>"
           alt="vela logo">
       </div>
 
       <div>
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--desktop.png' ?>"
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hslda--desktop.webp' ?>"
           alt="hslda logo">
       </div>
 
       <div>
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--desktop.png' ?>" alt="hcc logo">
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/hcc--desktop.webp' ?>" alt="hcc logo">
       </div>
 
     </div>
@@ -462,7 +467,7 @@ get_header(); ?>
     <div class='grid grid-cols-[repeat(10,auto)] gap-x-[60px] items-center'>
 
       <div class='col-start-1 col-end-6 row-start-1 row-end-2 object-cover'>
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/boy-with-toy1.5x.png' ?>"
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/boy-with-toy1.5x.webp' ?>"
           alt="boy with toy">
       </div>
 
@@ -485,7 +490,7 @@ get_header(); ?>
       </div>
 
       <div class='col-start-3 col-end-11 row-start-2 row-end-3 self-end object-cover mt-[-7.75rem]'>
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/girl-wearing-glasses1.5x.png' ?>"
+        <img src="<?php echo get_template_directory_uri() . '/assets/img/sponsors/girl-wearing-glasses1.5x.webp' ?>"
           alt="girl wearing glasses">
       </div>
 

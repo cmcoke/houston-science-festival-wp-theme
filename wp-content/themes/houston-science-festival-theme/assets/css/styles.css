@@ -194,32 +194,9 @@ select {
 
 
 
-/* 
-@media (max-width: 63.9375em) {
-  .entries {
-    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/background/entries-mobile.svg");
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-
-}
-
-@media (min-width: 64em) {
-  .entries {
-    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/background/entries-desktop.png");
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-} */
-
-
-
 @media (max-width: 63.9375em) {
   .footer {
-    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/footer/shapes--mobile1.5.png");
+    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/footer/shapes--mobile1.5.webp");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,7 +206,7 @@ select {
 
 @media (min-width: 64em) {
   .footer {
-    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/footer/shapes--desktop2.png");
+    background-image: url("/wp-content/themes/houston-science-festival-theme/assets/img/footer/shapes--desktop2.webp");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
