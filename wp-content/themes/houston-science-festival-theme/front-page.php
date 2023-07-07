@@ -303,7 +303,7 @@ get_header(); ?>
 <!-- Meet our 2023 Exhibitors -->
 <section class='pt-[101px] lg:pt-[150px]'>
 
-  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/girl-wearing-glasses--3x.webp' ?>"
+  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/girl-wearing-glasses-3x.webp' ?>"
     alt="A girl wearing glasses" class='mb-[81px] md:hidden'>
 
   <h1
@@ -313,7 +313,7 @@ get_header(); ?>
   <div class='wrapper grid grid-cols-2 grid-rows-5 justify-items-center items-center gap-[24px] md:gap-[70px]'>
 
     <div class='col-start-1 col-end-2 row-start-1 row-end-2'>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber Org logo--mobile.webp' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber-Org-logo-mobile.webp' ?>"
         alt="Cyber Org logo" class='md:hidden'>
       <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/Cyber-Org-logo.webp' ?>"
         alt="Cyber Org logo" class='hidden md:inline'>
@@ -363,7 +363,7 @@ get_header(); ?>
     </div>
 
     <div class='col-start-1 col-end-3'>
-      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White--mobile.webp' ?>"
+      <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White-mobile.webp' ?>"
         alt="HMNS logo" class='md:hidden'>
       <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/HMNS_logo_2022_White.webp' ?>"
         alt="HMNS logo" class='hidden md:inline'>
@@ -371,7 +371,7 @@ get_header(); ?>
 
     <div class='col-start-1 col-end-3 justify-self-center'>
       <img
-        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final--mobile.webp' ?>"
+        src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final-mobile.webp' ?>"
         alt="houston brick clublogo" class='md:hidden'>
       <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/houstonbrickclublogo-final.webp' ?>"
         alt="houston brick clublogo" class='hidden md:inline'>
@@ -380,7 +380,7 @@ get_header(); ?>
   </div>
 
 
-  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/boy-with-toy--3x.webp' ?>"
+  <img src="<?php echo get_template_directory_uri() . '/assets/img/exhibitors/boy-with-toy-3x.webp' ?>"
     alt="A boy playing with a toy" class='my-[81px] md:hidden'>
 
 

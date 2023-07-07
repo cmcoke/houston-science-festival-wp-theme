@@ -618,7 +618,7 @@
 
   <!-- desktop version -->
   <h1
-    class='text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0'>
+    class='hidden lg:block text-[clamp(1.5rem,2.5vw_+_1rem,5rem)] leading-[120%] not-italic font-bold tracking-[-0.48px] text-center max-w-[clamp(19.375rem,10.58rem_+_43.973vw,80.938rem)] mx-auto mt-0'>
     Thank you to our 2023 Sponsors!</h1>
 
   <div class='hidden lg:grid lg:grid-cols-3 lg:gap-[191px] lg:place-items-center lg:mt-[90px] lg:mb-[272px]'>
