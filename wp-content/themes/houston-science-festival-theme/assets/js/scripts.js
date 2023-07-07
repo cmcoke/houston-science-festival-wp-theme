@@ -1,5 +1,6 @@
 import MobileMenu from "./MobileMenu";
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
   const mobileMenu = new MobileMenu();
 });
+

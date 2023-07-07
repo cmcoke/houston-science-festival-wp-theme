@@ -42,14 +42,14 @@
           <li><a href=" <?php echo esc_url(site_url('/present')); ?>"
               class='text-[color:var(--blue)] lg:text-[color:var(--white)] text-[clamp(1.5rem,0.4758rem_+_5.1209vw,3.75rem)] landscape:text-[1.5rem] min-[884px]:text-[clamp(3rem,-3.3597rem_+_11.5108vw,4rem)] lg:text-[1.5rem] not-italic font-bold leading-[120%] tracking-[-0.48px]'>Present</a>
           </li>
-          <li><a href=" <?php echo esc_url(site_url('/volunteer')); ?>"
+          <li><a href=" <?php echo esc_url(site_url('')); ?>"
               class='text-[color:var(--blue)] lg:text-[color:var(--white)] text-[clamp(1.5rem,0.4758rem_+_5.1209vw,3.75rem)] landscape:text-[1.5rem] min-[884px]:text-[clamp(3rem,-3.3597rem_+_11.5108vw,4rem)] lg:text-[1.5rem] not-italic font-bold leading-[120%] tracking-[-0.48px]'>Volunteer</a>
           </li>
           <li><a href=" <?php echo esc_url(site_url('/sponsor')); ?>"
               class='text-[color:var(--blue)] lg:text-[color:var(--white)] text-[clamp(1.5rem,0.4758rem_+_5.1209vw,3.75rem)] landscape:text-[1.5rem] min-[884px]:text-[clamp(3rem,-3.3597rem_+_11.5108vw,4rem)] lg:text-[1.5rem] not-italic font-bold leading-[120%] tracking-[-0.48px]'>Sponsor</a>
           </li>
           <li class="hidden lg:block">
-            <a href=" <?php echo esc_url(site_url('/donate')); ?>" class='button'>Donate</a>
+            <a href=" <?php echo esc_url(site_url('')); ?>" class='button'>Donate</a>
           </li>
         </ul>
       </nav>
